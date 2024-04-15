@@ -1,4 +1,4 @@
-module github.com/emirot/kyaml.git
+module git
 
 go 1.18
 
