@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/internal/forked/github.com/go-yaml/yaml"
 	. "gopkg.in/check.v1"
-	"sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/go-yaml/yaml"
 )
 
 var limitTests = []struct {

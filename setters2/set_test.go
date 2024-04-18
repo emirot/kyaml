@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestSet_Filter(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/emirot/kyaml/kio/filters"
+	"github.com/emirot/kyaml/yaml"
+	. "github.com/emirot/kyaml/yaml/merge2"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
-	. "sigs.k8s.io/kustomize/kyaml/yaml/merge2"
 )
 
 const dest = `

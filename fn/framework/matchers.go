@@ -8,10 +8,10 @@ import (
 	"strings"
 	"text/template"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/sets"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/sets"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // ResourceMatcher is implemented by types designed for use in or as selectors.

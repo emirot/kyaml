@@ -8,9 +8,9 @@ import (
 	"strings"
 	"text/template"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // ResourceTemplate generates resources from templates.

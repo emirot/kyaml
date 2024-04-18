@@ -14,7 +14,7 @@ import (
 	"sort"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
+	"github.com/emirot/kyaml/errors"
 )
 
 var _ File = &fsNode{}

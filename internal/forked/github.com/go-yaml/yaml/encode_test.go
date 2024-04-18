@@ -26,15 +26,15 @@ import (
 	"net"
 	"os"
 
+	"github.com/emirot/kyaml/internal/forked/github.com/go-yaml/yaml"
 	. "gopkg.in/check.v1"
-	"sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/go-yaml/yaml"
 )
 
 var marshalIntTest = 123
 
 var marshalTests = []struct {
-	value interface{}
-	data  string
+	value   interface{}
+	data    string
 	compact string
 }{
 	{

@@ -11,13 +11,13 @@ import (
 	"path"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/comments"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/order"
+	"github.com/emirot/kyaml/comments"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/order"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // FunctionFilter wraps another filter to be invoked in the context of a function.

@@ -6,7 +6,7 @@ package main
 import (
 	"testing"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/frameworktestutil"
+	"github.com/emirot/kyaml/fn/framework/frameworktestutil"
 )
 
 func TestRun(t *testing.T) {

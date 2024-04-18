@@ -4,8 +4,8 @@
 package walk
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 )
 
 type ListKind int32

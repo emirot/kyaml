@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/kio"
+	. "github.com/emirot/kyaml/kio/filters"
+	"github.com/emirot/kyaml/kio/filters/testyaml"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	. "sigs.k8s.io/kustomize/kyaml/kio/filters"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters/testyaml"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestFormatInput_FixYaml1_1Compatibility(t *testing.T) {
@@ -600,7 +600,6 @@ func TestFormatInput_resources(t *testing.T) {
 	assert.Equal(t, expectedOutput.String(), s.String())
 }
 
-//
 func TestFormatInput_failMissingKind(t *testing.T) {
 	y := `
 spec:

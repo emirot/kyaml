@@ -6,7 +6,7 @@ package setters2
 import (
 	"fmt"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // ExampleAdd demonstrates adding a setter reference to fields.

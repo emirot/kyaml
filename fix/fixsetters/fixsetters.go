@@ -6,9 +6,9 @@ package fixsetters
 import (
 	"os"
 
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/setters2"
-	"sigs.k8s.io/kustomize/kyaml/setters2/settersutil"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/setters2"
+	"github.com/emirot/kyaml/setters2/settersutil"
 )
 
 // SetterFixer fixes setters in the input package

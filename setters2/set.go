@@ -8,17 +8,17 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fieldmeta"
+	goyaml "github.com/emirot/kyaml/internal/forked/github.com/go-yaml/yaml"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/sets"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 	"k8s.io/kube-openapi/pkg/validation/strfmt"
 	"k8s.io/kube-openapi/pkg/validation/validate"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	goyaml "sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/go-yaml/yaml"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/sets"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // Set sets resource field values from an OpenAPI setter

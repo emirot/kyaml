@@ -13,10 +13,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 type CLIMode byte
@@ -116,7 +116,7 @@ func Build(p framework.ResourceListProcessor, mode CLIMode, noPrintError bool) *
 // the function into a container image.
 // The gen command takes one argument: the directory where the Dockerfile will be created.
 //
-//		go run main.go gen DIR/
+//	go run main.go gen DIR/
 func AddGenerateDockerfile(cmd *cobra.Command) {
 	gen := &cobra.Command{
 		Use:  "gen [DIR]",

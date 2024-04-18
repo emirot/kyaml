@@ -6,14 +6,14 @@ package framework_test
 import (
 	"testing"
 
+	"github.com/emirot/kyaml/fn/framework/parser"
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/parser"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/command"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/frameworktestutil"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework/command"
+	"github.com/emirot/kyaml/fn/framework/frameworktestutil"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func TestResourcePatchTemplate_ComplexSelectors(t *testing.T) {

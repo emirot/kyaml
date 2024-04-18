@@ -5,9 +5,9 @@
 package filters
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
-	"sigs.k8s.io/kustomize/kyaml/yaml/merge2"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml/merge2"
 )
 
 // MergeFilter merges Resources with the Group/Version/Kind/Namespace/Name together using

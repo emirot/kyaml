@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func TestResults_Sort(t *testing.T) {

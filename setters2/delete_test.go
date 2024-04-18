@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/emirot/kyaml/fieldmeta"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
 )
 
 var resourcefile2 = `apiVersion: resource.dev/v1alpha1

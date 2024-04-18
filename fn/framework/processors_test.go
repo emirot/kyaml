@@ -9,19 +9,19 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/framework/frameworktestutil"
+	"github.com/emirot/kyaml/fn/framework/parser"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/resid"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	validationErrors "k8s.io/kube-openapi/pkg/validation/errors"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/frameworktestutil"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/parser"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/resid"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/kio"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/kio"
 )
 
 func TestTemplateProcessor_ResourceTemplates(t *testing.T) {

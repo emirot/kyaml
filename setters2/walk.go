@@ -4,10 +4,10 @@
 package setters2
 
 import (
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // visitor is implemented by structs which need to walk the configuration.

@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/validation/field"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/validation/field"
 )
 
 const qnameCharFmt string = "[A-Za-z0-9]"

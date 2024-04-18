@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/kio"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/kio"
 )
 
 func TestSelector(t *testing.T) {

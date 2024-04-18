@@ -7,10 +7,10 @@ import (
 	goerrors "errors"
 	"os"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // ResourceList is a Kubernetes list type used as the primary data interchange format
@@ -98,10 +98,10 @@ type Validator interface {
 // Use this with framework.SchemaFromFunctionDefinition to load the schema out of a KRMFunctionDefinition
 // or CRD (e.g. one generated with KubeBuilder).
 //
-// func (t MyType) Schema() (*spec.Schema, error) {
-//	 schema, err := framework.SchemaFromFunctionDefinition(resid.NewGvk("example.com", "v1", "MyType"), MyTypeDef)
-//	 return schema, errors.WrapPrefixf(err, "parsing MyType schema")
-// }
+//	func (t MyType) Schema() (*spec.Schema, error) {
+//		 schema, err := framework.SchemaFromFunctionDefinition(resid.NewGvk("example.com", "v1", "MyType"), MyTypeDef)
+//		 return schema, errors.WrapPrefixf(err, "parsing MyType schema")
+//	}
 type ValidationSchemaProvider interface {
 	Schema() (*spec.Schema, error)
 }

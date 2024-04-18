@@ -3,7 +3,7 @@
 
 package walk
 
-import "sigs.k8s.io/kustomize/kyaml/yaml"
+import "github.com/emirot/kyaml/yaml"
 
 // walkScalar returns the value of VisitScalar
 func (l Walker) walkScalar() (*yaml.RNode, error) {

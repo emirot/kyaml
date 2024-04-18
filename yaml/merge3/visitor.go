@@ -4,9 +4,9 @@
 package merge3
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
-	"sigs.k8s.io/kustomize/kyaml/yaml/walk"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml/walk"
 )
 
 type ConflictStrategy uint

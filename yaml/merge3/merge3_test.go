@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	. "github.com/emirot/kyaml/yaml/merge3"
 	"github.com/stretchr/testify/assert"
-	. "sigs.k8s.io/kustomize/kyaml/yaml/merge3"
 )
 
 var testCases = [][]testCase{scalarTestCases, listTestCases, mapTestCases, elementTestCases, kustomizationTestCases}

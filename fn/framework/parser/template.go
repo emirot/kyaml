@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework"
 )
 
 const (
@@ -55,11 +55,11 @@ func TemplateStrings(data ...string) framework.TemplateParser {
 //
 // This is a helper for use with framework.TemplateProcessor's template subfields. Example:
 //
-// 	 processor := framework.TemplateProcessor{
-//		ResourceTemplates: []framework.ResourceTemplate{{
-//			Templates: parser.TemplateFiles("path/to/templates", "path/to/special.template.yaml")
-//		}},
-//   }
+//		 processor := framework.TemplateProcessor{
+//			ResourceTemplates: []framework.ResourceTemplate{{
+//				Templates: parser.TemplateFiles("path/to/templates", "path/to/special.template.yaml")
+//			}},
+//	  }
 func TemplateFiles(paths ...string) TemplateParser {
 	return TemplateParser{parser{paths: paths, extensions: []string{TemplateExtension}}}
 }

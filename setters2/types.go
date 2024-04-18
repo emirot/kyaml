@@ -6,9 +6,9 @@ package setters2
 import (
 	"encoding/json"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/openapi"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
 )
 
 type CliExtension struct {

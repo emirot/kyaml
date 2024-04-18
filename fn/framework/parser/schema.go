@@ -7,9 +7,9 @@ import (
 	iofs "io/fs"
 	"os"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/framework"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
 )
 
 const (
@@ -21,18 +21,17 @@ const (
 //
 // This is a helper for use with framework.TemplateProcessor#AdditionalSchemas. Example:
 //
-//	processor := framework.TemplateProcessor{
-//		//...
-//		AdditionalSchemas: parser.SchemaStrings(`
-//        {
-//          "definitions": {
-//            "com.example.v1.Foo": {
-//               ...
-//            }
-//          }
-//        }
-//		`),
-//
+//		processor := framework.TemplateProcessor{
+//			//...
+//			AdditionalSchemas: parser.SchemaStrings(`
+//	       {
+//	         "definitions": {
+//	           "com.example.v1.Foo": {
+//	              ...
+//	           }
+//	         }
+//	       }
+//			`),
 func SchemaStrings(data ...string) framework.SchemaParser {
 	return framework.SchemaParserFunc(func() ([]*spec.Definitions, error) {
 		var defs []*spec.Definitions
@@ -51,6 +50,7 @@ func SchemaStrings(data ...string) framework.SchemaParser {
 
 // SchemaFiles returns a SchemaParser that will parse the schemas in the given files.
 // This is a helper for use with framework.TemplateProcessor#AdditionalSchemas.
+//
 //	processor := framework.TemplateProcessor{
 //		//...
 //		AdditionalSchemas: parser.SchemaFiles("path/to/crd-schemas", "path/to/special-schema.json),

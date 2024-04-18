@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/emirot/kyaml/openapi"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
 )
 
 func TestCheckRequiredSettersSet(t *testing.T) {

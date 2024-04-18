@@ -8,10 +8,10 @@ import (
 	"os"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
-	"sigs.k8s.io/kustomize/kyaml/yaml/schema"
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml/schema"
 )
 
 // Walker walks the Source RNode and modifies the RNode provided to GrepFilter.

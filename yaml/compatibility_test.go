@@ -6,9 +6,9 @@ package yaml_test
 import (
 	"testing"
 
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestIsYaml1_1NonString(t *testing.T) {

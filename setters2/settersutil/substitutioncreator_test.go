@@ -6,9 +6,9 @@ package settersutil
 import (
 	"testing"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/setters2"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/setters2"
 )
 
 func TestGetValuesForMarkers(t *testing.T) {

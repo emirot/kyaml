@@ -8,8 +8,8 @@ import (
 	"hash/fnv"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/yaml"
 )
 
 var _ yaml.Filter = &upgradeV1Setters{}

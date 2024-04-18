@@ -4,9 +4,9 @@
 package inpututil
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 )
 
 type MapInputsEFn func(*yaml.RNode, yaml.ResourceMeta) error

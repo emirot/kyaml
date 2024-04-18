@@ -4,7 +4,7 @@
 package filters
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 const LocalConfigAnnotation = "config.kubernetes.io/local-config"

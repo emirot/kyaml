@@ -7,8 +7,8 @@ package schema
 import (
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // IsAssociative returns true if all elements in the list contain an

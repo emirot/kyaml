@@ -6,8 +6,8 @@ package fixsetters
 import (
 	"sort"
 
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 var _ kio.Filter = &UpgradeV1Setters{}

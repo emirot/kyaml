@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // ResId is an identifier of a k8s resource object.

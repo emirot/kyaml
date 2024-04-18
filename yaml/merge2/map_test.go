@@ -4,7 +4,7 @@
 package merge2_test
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 var mapTestCases = []testCase{

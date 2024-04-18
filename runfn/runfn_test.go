@@ -16,13 +16,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"sigs.k8s.io/kustomize/kyaml/copyutil"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/container"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/runtimeutil"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/copyutil"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/runtime/container"
+	"github.com/emirot/kyaml/fn/runtime/runtimeutil"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/filters"
+	"github.com/emirot/kyaml/yaml"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/filesys"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/filesys"
 )
 
 func TestIgnoreFilesMatcher_readIgnoreFile(t *testing.T) {

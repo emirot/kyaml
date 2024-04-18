@@ -100,7 +100,7 @@ for pr in "${GO_YAML_PRS[@]}" ; do
 done
 
 explain "Converting module to be internal."
-find kyaml/internal/forked/github.com/go-yaml/yaml -name "*.go" -type f | xargs sed -i '' s+"gopkg.in/yaml.v3"+"sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/go-yaml/yaml"+g
+find kyaml/internal/forked/github.com/go-yaml/yaml -name "*.go" -type f | xargs sed -i '' s+"gopkg.in/yaml.v3"+"github.com/emirot/kyaml/internal/forked/github.com/go-yaml/yaml"+g
 rm kyaml/internal/forked/github.com/go-yaml/yaml/go.mod
 git commit --all -m "Internalize forked code"
 

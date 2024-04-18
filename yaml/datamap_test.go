@@ -6,8 +6,8 @@ package yaml_test
 import (
 	"testing"
 
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestSortedKeys(t *testing.T) {

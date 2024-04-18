@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	. "github.com/emirot/kyaml/copyutil"
 	"github.com/stretchr/testify/assert"
-	. "sigs.k8s.io/kustomize/kyaml/copyutil"
 )
 
 // TestDiff_identical verifies identical directories return an empty set

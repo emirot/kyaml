@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"sigs.k8s.io/kustomize/kyaml/filesys"
-	"sigs.k8s.io/kustomize/kyaml/testutil"
+	"github.com/emirot/kyaml/filesys"
+	"github.com/emirot/kyaml/testutil"
 
+	. "github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	. "sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // TestLocalPackageWriter_Write tests:

@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework/command"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/command"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestProcessorResultsChecker_UpdateExpectedFromActual(t *testing.T) {

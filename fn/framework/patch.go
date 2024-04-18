@@ -9,12 +9,12 @@ import (
 	"strings"
 	"text/template"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
-	"sigs.k8s.io/kustomize/kyaml/yaml/merge2"
-	"sigs.k8s.io/kustomize/kyaml/yaml/walk"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml/merge2"
+	"github.com/emirot/kyaml/yaml/walk"
 )
 
 // ResourcePatchTemplate applies a patch to a collection of resources

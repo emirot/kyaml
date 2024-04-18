@@ -4,8 +4,8 @@
 package framework
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // Selector matches resources.  A resource matches if and only if ALL of the Selector fields
