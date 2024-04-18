@@ -6,9 +6,9 @@ package filtersutil
 import (
 	"encoding/json"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // ApplyToJSON applies the filter to the json objects.

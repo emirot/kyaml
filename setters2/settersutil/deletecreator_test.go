@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/openapi"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
 )
 
 var openAPIFile = `

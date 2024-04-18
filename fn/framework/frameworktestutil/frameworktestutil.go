@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/kio"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/kio"
 )
 
 const (

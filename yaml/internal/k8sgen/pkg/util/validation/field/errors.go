@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"strings"
 
-	utilerrors "sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/errors"
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/sets"
+	utilerrors "github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/errors"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/sets"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

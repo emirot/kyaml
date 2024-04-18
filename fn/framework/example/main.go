@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework/command"
+	"github.com/emirot/kyaml/fn/framework/parser"
 	"github.com/spf13/cobra"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/command"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/parser"
 )
 
 //go:embed templates/*

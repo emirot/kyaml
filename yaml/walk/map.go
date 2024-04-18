@@ -6,10 +6,10 @@ package walk
 import (
 	"sort"
 
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/sets"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/sets"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // walkMap returns the value of VisitMap

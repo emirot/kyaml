@@ -47,7 +47,7 @@ EOF
 for version in ${version_list[@]}
 do
   cat <<EOF >>kubernetesapi/openapiinfo.go
-  "sigs.k8s.io/kustomize/kyaml/openapi/kubernetesapi/$version"
+  "github.com/emirot/kyaml/openapi/kubernetesapi/$version"
 EOF
 done
 

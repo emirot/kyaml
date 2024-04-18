@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // Severity indicates the severity of the Result

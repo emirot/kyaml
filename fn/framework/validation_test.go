@@ -7,9 +7,9 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/emirot/kyaml/resid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/resid"
 )
 
 var demoFunctionDefinition = `

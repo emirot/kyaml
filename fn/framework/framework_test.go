@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestExecute_Result(t *testing.T) {

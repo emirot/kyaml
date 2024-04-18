@@ -4,7 +4,7 @@
 package walk
 
 import (
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // walkNonAssociativeSequence returns the value of VisitList

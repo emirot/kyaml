@@ -4,9 +4,9 @@
 package framework
 
 import (
+	"github.com/emirot/kyaml/fn/runtime/runtimeutil"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/runtimeutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 const FunctionDefinitionKind = "KRMFunctionDefinition"

@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/internal/forked/github.com/go-yaml/yaml"
+	. "github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/go-yaml/yaml"
-	. "sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 const (

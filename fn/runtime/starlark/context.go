@@ -8,12 +8,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/internal/forked/github.com/qri-io/starlib/util"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	"go.starlark.net/starlark"
 	"go.starlark.net/starlarkstruct"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/internal/forked/github.com/qri-io/starlib/util"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 type Context struct {

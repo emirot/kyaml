@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/filesys"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/filesys"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // LocalPackageWriter writes ResourceNodes to a filesystem

@@ -27,9 +27,9 @@ import (
 	"strings"
 
 	"log"
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/selection"
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/sets"
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/validation"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/selection"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/sets"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/validation"
 )
 
 // Requirements is AND of all requirements.

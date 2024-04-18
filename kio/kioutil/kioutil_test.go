@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestSortNodes_moreThan10(t *testing.T) {

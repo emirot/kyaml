@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func Test_determineSmpDirective(t *testing.T) {

@@ -15,14 +15,14 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/container"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/exec"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/runtimeutil"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/starlark"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/runtime/container"
+	"github.com/emirot/kyaml/fn/runtime/exec"
+	"github.com/emirot/kyaml/fn/runtime/runtimeutil"
+	"github.com/emirot/kyaml/fn/runtime/starlark"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // RunFns runs the set of configuration functions in a local directory against

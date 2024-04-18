@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/xlab/treeprint"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 type TreeStructure string
@@ -32,7 +32,8 @@ var GraphStructures = []string{string(TreeStructureGraph), string(TreeStructureP
 
 // TreeWriter prints the package structured as a tree.
 // TODO(pwittrock): test this package better.  it is lower-risk since it is only
-//   used for printing rather than updating or editing.
+//
+//	used for printing rather than updating or editing.
 type TreeWriter struct {
 	Writer          io.Writer
 	Root            string

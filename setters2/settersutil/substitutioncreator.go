@@ -10,14 +10,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/sets"
+	"github.com/emirot/kyaml/setters2"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/sets"
-	"sigs.k8s.io/kustomize/kyaml/setters2"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // SubstitutionCreator creates or updates a substitution in the OpenAPI definitions, and

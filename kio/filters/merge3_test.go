@@ -8,11 +8,11 @@ import (
 	"runtime"
 	"testing"
 
-	"sigs.k8s.io/kustomize/kyaml/testutil"
+	"github.com/emirot/kyaml/testutil"
 
+	"github.com/emirot/kyaml/copyutil"
+	"github.com/emirot/kyaml/kio/filters"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/copyutil"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters"
 )
 
 func TestMerge3_Merge(t *testing.T) {

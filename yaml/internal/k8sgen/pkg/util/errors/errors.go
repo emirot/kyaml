@@ -23,7 +23,7 @@ import (
 	"errors"
 	"fmt"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml/internal/k8sgen/pkg/util/sets"
+	"github.com/emirot/kyaml/yaml/internal/k8sgen/pkg/util/sets"
 )
 
 // MessageCountMap contains occurrence for each error message.

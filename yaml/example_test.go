@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	. "sigs.k8s.io/kustomize/kyaml/yaml"
+	. "github.com/emirot/kyaml/yaml"
 )
 
 func Example() {

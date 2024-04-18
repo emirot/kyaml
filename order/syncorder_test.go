@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestSyncOrder(t *testing.T) {

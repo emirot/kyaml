@@ -6,15 +6,15 @@ package framework
 import (
 	"strings"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/filters"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	validationErrors "k8s.io/kube-openapi/pkg/validation/errors"
 	"k8s.io/kube-openapi/pkg/validation/spec"
 	"k8s.io/kube-openapi/pkg/validation/strfmt"
 	"k8s.io/kube-openapi/pkg/validation/validate"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 	k8syaml "sigs.k8s.io/yaml"
 )
 

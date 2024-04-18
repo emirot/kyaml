@@ -6,10 +6,10 @@ package walk
 import (
 	"strings"
 
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/sets"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/go-errors/errors"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/sets"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // appendListNode will append the nodes from src to dst and return dst.

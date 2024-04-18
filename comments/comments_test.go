@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestCopyComments(t *testing.T) {

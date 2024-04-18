@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"testing"
 
+	v1212 "github.com/emirot/kyaml/openapi/kubernetesapi/v1212"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 	"google.golang.org/protobuf/proto"
-	v1212 "sigs.k8s.io/kustomize/kyaml/openapi/kubernetesapi/v1212"
 )
 
 func BenchmarkProtoUnmarshal(t *testing.B) {

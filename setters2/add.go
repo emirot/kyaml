@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"strings"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fieldmeta"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fieldmeta"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // Add creates or updates setter or substitution references from resource fields.

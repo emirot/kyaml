@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/command"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/frameworktestutil"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework/command"
+	"github.com/emirot/kyaml/fn/framework/frameworktestutil"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func TestCommand_dockerfile(t *testing.T) {

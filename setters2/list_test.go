@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/emirot/kyaml/openapi"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/openapi"
 )
 
 func TestList(t *testing.T) {

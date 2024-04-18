@@ -4,9 +4,9 @@
 package framework
 
 import (
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/resid"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/resid"
 	k8syaml "sigs.k8s.io/yaml"
 )
 

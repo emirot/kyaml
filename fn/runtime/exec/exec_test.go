@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/fn/runtime/exec"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/exec"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestFunctionFilter_Filter(t *testing.T) {

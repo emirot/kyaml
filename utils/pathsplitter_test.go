@@ -6,8 +6,8 @@ package utils_test
 import (
 	"testing"
 
+	. "github.com/emirot/kyaml/utils"
 	"github.com/stretchr/testify/assert"
-	. "sigs.k8s.io/kustomize/kyaml/utils"
 )
 
 func TestPathSplitter(t *testing.T) {

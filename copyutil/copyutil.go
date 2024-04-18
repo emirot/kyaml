@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/emirot/kyaml/sets"
 	"github.com/sergi/go-diff/diffmatchpatch"
-	"sigs.k8s.io/kustomize/kyaml/sets"
 )
 
 // CopyDir copies a src directory to a dst directory.  CopyDir skips copying the .git directory from the src.

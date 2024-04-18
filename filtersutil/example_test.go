@@ -9,10 +9,10 @@ import (
 	"log"
 	"testing"
 
+	"github.com/emirot/kyaml/filtersutil"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/filtersutil"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestApplyToJSON(t *testing.T) {

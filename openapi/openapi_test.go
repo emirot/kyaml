@@ -9,10 +9,10 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/emirot/kyaml/yaml"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 func TestAddSchema(t *testing.T) {

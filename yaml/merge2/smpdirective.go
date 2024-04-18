@@ -6,7 +6,7 @@ package merge2
 import (
 	"fmt"
 
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/yaml"
 )
 
 // A strategic merge patch directive.

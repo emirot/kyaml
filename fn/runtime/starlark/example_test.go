@@ -11,11 +11,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/runtimeutil"
-	"sigs.k8s.io/kustomize/kyaml/fn/runtime/starlark"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/kioutil"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/fn/runtime/runtimeutil"
+	"github.com/emirot/kyaml/fn/runtime/starlark"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/kioutil"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func ExampleFilter_Filter() {

@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/fn/framework/parser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/parser"
 )
 
 //go:embed testdata/cm1.template.yaml

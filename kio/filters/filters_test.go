@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"testing"
 
+	. "github.com/emirot/kyaml/kio"
+	. "github.com/emirot/kyaml/kio/filters"
 	"github.com/stretchr/testify/assert"
-	. "sigs.k8s.io/kustomize/kyaml/kio"
-	. "sigs.k8s.io/kustomize/kyaml/kio/filters"
 )
 
 var r = `

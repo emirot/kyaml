@@ -6,8 +6,8 @@ package openapi_test
 import (
 	"fmt"
 
-	"sigs.k8s.io/kustomize/kyaml/openapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
+	"github.com/emirot/kyaml/openapi"
+	"github.com/emirot/kyaml/yaml"
 )
 
 func Example() {

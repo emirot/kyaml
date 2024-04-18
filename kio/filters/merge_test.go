@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/kio/filters"
+	"github.com/emirot/kyaml/yaml"
 	"github.com/stretchr/testify/assert"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/kio/filters"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 // TestMerge_Merge_order tests that the original order of elements

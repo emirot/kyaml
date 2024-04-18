@@ -10,15 +10,15 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/fn/framework"
+	"github.com/emirot/kyaml/fn/framework/command"
+	"github.com/emirot/kyaml/fn/framework/parser"
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/resid"
+	"github.com/emirot/kyaml/yaml"
 	validationErrors "k8s.io/kube-openapi/pkg/validation/errors"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/command"
-	"sigs.k8s.io/kustomize/kyaml/fn/framework/parser"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/resid"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
 
 const service = "Service"

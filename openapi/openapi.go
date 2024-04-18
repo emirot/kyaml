@@ -12,13 +12,13 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/emirot/kyaml/errors"
+	"github.com/emirot/kyaml/openapi/kubernetesapi"
+	"github.com/emirot/kyaml/openapi/kustomizationapi"
+	"github.com/emirot/kyaml/yaml"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 	"google.golang.org/protobuf/proto"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/errors"
-	"sigs.k8s.io/kustomize/kyaml/openapi/kubernetesapi"
-	"sigs.k8s.io/kustomize/kyaml/openapi/kustomizationapi"
-	"sigs.k8s.io/kustomize/kyaml/yaml"
 	k8syaml "sigs.k8s.io/yaml"
 )
 

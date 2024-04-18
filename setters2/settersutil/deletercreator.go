@@ -4,9 +4,9 @@
 package settersutil
 
 import (
+	"github.com/emirot/kyaml/kio"
+	"github.com/emirot/kyaml/setters2"
 	"k8s.io/kube-openapi/pkg/validation/spec"
-	"sigs.k8s.io/kustomize/kyaml/kio"
-	"sigs.k8s.io/kustomize/kyaml/setters2"
 )
 
 // DeleterCreator delete a definition in the OpenAPI definitions, and removes references

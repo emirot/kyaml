@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"sigs.k8s.io/kustomize/kyaml/errors"
+	"github.com/emirot/kyaml/errors"
 )
 
 var _ FileSystem = fsOnDisk{}
